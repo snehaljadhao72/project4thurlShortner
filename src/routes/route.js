@@ -5,10 +5,10 @@ const UrlController = require("../controllers/urlController")
 
 // ---=+=---------=+=----------=+=----------- [ Route APIs ] ---=+=---------=+=----------=+=-----------//
 
-router.post("/url/shorten",  UrlController.createUrl)
+router.post("/url/shorten", UrlController.createUrl)
 
 
-router.get("/:urlCode", UrlController.getUrl)
+router.get("/:urlCode",UrlController.getUrl)
 
 
 module.exports = router
