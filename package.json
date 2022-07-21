@@ -2,11 +2,34 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
+    "i": "^0.3.7",
     "init": "^0.1.2",
     "module": "^1.2.5",
     "mongoose": "^6.4.4",
     "nodemon": "^2.0.19",
+    "npm": "^8.14.0",
+    "redis": "^3.1.2",
     "shortid": "^2.2.16",
     "valid-url": "^1.0.9"
-  }
+  },
+  "name": "urlshortner-project-4",
+  "description": "radon\r Scalable URL Shortner Project Requirement\r Phase I\r Overview\r URL shortening is used to create shorter aliases for long URLs. We call these shortened aliases “short links.” Users are redirected to the original URL when they hit these short links. Short links save a lot of space when displayed, printed, messaged, or tweeted. Additionally, users are less likely to mistype shorter URLs.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subrat50/UrlShortner-project-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subrat50/UrlShortner-project-4/issues"
+  },
+  "homepage": "https://github.com/subrat50/UrlShortner-project-4#readme"
 }
